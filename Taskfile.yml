@@ -1,0 +1,10 @@
+version: '3'
+
+tasks:
+  run-server:
+    cmds:
+      - go run ./cmd/server
+
+  run-client:
+    cmds:
+      - go run ./cmd/client
